@@ -1,0 +1,150 @@
+/************ HOME PAGE STYLE *************/
+
+/* Navigation */
+.navbar {
+	background: #000;
+}
+.nav-item {
+	padding-left: 1rem;
+}
+/* Carousel Slider */
+.carousel-item {
+	height: 450px;
+}
+.carousel-img-1 {
+	background: url('../img/image1.jpeg');
+	background-size: cover;
+}
+.carousel-img-2 {
+	background-image: url('../img/image2.jpeg');
+	background-size: cover;
+	
+}
+#showcase .btn-custom {
+	background: #E0A800;
+	color: #fff;
+}
+.carousel-img-3 {
+	background-image: url('../img/image3.jpeg');
+	background-size: cover;
+}
+#showcase .btn-custom2 {
+	background: #0069D9;
+	color: #fff;
+}
+/* Home Icon */
+#homeicon .fa {
+	font-size: 50px;
+}
+/* Get Started */
+#getstarted {
+	background: url('../img/bg1.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+	min-height: 250px;
+}
+#getstarted .dark-overlay {
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+/* Info Section */
+/* Video Section */
+#home-video {
+	background: url('../img/people.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+	min-height: 250px;
+}
+#home-video .dark-overlay {
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#home-video .fa {
+	font-size: 50px;
+	color: #ff0000;
+}
+/* Photo Gallary */
+#gallary img {
+	height: 250px;
+}
+/* Signup Newsletter */
+#newsletter .btn-custom {
+	background: #007bff;
+	border-color: #007bff;
+	color: #fff;
+}
+/* Copyright */
+#copyright {
+	background: #000;
+}
+/*********** ABOUT US PAGE STYLE ************/
+#page-header {
+	background: url('../img/image1.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 200px;
+}
+#about-info img {
+	width: 350px;
+	height: 350px;
+}
+#icon-boxes .fa {
+	font-size: 50px;
+}
+#testimonial .slick-prev::before {
+	color: #000;
+}
+#testimonial .slick-next::before {
+	color: #000;
+}
+/*********** SERVICES PAGE STYLE ************/
+#service-page-header {
+	background: url('../img/image3.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 200px;
+}
+@media(max-width: 767px){
+	.nav-item {
+	padding-left: 0;
+	}
+	#gallary img {
+	height: 250px;
+	width: 100%;
+   }
+}
+@media(max-width: 576px){
+	.custom-pt {
+		margin-top: .5rem;
+	}
+}
+@media(max-width: 400px){
+	.xtra-short-device {
+		margin-bottom: 1rem;
+	}
+	#getstarted {
+		background: url('../img/bg1.jpeg');
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		position: relative;
+		min-height: 400px;
+	}
+	#getstarted .dark-overlay {
+		background: rgba(0,0,0,0.7);
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
